@@ -9,6 +9,7 @@ package edu.wpi.first.wpilibj.templates;
 
 
 import edu.wpi.first.wpilibj.SimpleRobot;
+import edu.wpi.first.wpilibj.Victor;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -18,6 +19,7 @@ import edu.wpi.first.wpilibj.SimpleRobot;
  * directory.
  */
 public class RobotTemplate extends SimpleRobot {
+    
     /**
      * This function is called once each time the robot enters autonomous mode.
      */
@@ -29,7 +31,10 @@ public class RobotTemplate extends SimpleRobot {
      * This function is called once each time the robot enters operator control.
      */
     public void operatorControl() {
-
+            DriveTrain dt=new DriveTrain();
+            while(true){
+                dt.setSpeeds();
+            }
     }
     
     /**
