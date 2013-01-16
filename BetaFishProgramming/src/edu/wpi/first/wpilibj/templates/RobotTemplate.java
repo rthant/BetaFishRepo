@@ -9,7 +9,7 @@ package edu.wpi.first.wpilibj.templates;
 
 
 import edu.wpi.first.wpilibj.SimpleRobot;
-import edu.wpi.first.wpilibj.Victor;
+  
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -35,6 +35,7 @@ public class RobotTemplate extends SimpleRobot {
             while(true){
                 dt.setSpeeds();
             }
+            
     }
     
     /**
