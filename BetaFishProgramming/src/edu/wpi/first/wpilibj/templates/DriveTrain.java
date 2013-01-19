@@ -8,7 +8,7 @@ import edu.wpi.first.wpilibj.Victor;
 
 /**
  *
- * @author admin
+ * @author adminf
  */
 public class DriveTrain {
     //declarations... yet to see about Victors bl and br
